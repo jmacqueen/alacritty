@@ -4,13 +4,21 @@ args = ["-l"]
 
 [window]
 startup_mode = "Maximized"
+opacity = 1
+decorations = "None"
+option_as_alt = "OnlyLeft"
 
 [scrolling]
 history = 100000
 
 [font]
-size = 13
-normal = { family = "FiraCode Nerd Font Mono"}
+size = 14
+normal = { family = "BerkeleyMono Nerd Font", style = "Regular" }
+# normal = { family = "FiraCode Nerd Font Mono"}
+bold = { family = "BerkeleyMono Nerd Font", style = "Bold" }
+italic = { family = "BerkeleyMono Nerd Font", style = "Italic" }
+bold_italic = { family = "BerkeleyMono Nerd Font", style = "Bold Italic" }
+offset = { x = 0, y = 3 }
 
 [cursor]
 style = { shape = "Beam", blinking = "Off" }
@@ -20,5 +28,4 @@ vi_mode_style = { shape = "Block", blinking = "Off" }
 hide_when_typing = true
 
 [terminal]
-
 
