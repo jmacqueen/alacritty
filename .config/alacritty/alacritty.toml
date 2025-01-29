@@ -27,7 +27,3 @@ vi_mode_style = { shape = "Block", blinking = "Off" }
 [mouse]
 hide_when_typing = false
 
-[keyboard]
-bindings = [
-  { key = "C", mods = "Control", action = "None" }
-]
